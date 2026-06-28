@@ -1,12 +1,13 @@
 #include "Player.h"
 
 Player::Player()
+    : zdorovie(100.0f),
+    sytost(100.0f),
+    temperaturaTela(100.0f),
+    vlazhnost(0.0f)
 {
-    float zdorovie = 100.0;        // здоровье игрока
-    float sytost = 100.0;          // сытость
-    float temperaturaTela = 100.0; // температура тела
-    float vlazhnost = 0.0;       // влажность / намокание
 }
+
 float Player::getSytost() const
 {
     return sytost;

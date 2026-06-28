@@ -7,16 +7,17 @@ public:
 
     void update(float deltaTime);
 
-    float getHealth() const;
-    float getSatiety() const;
-    float getTemperature() const;
-    float getWetness() const;
+    float getZdorovie() const;        // получить здоровье игрока
+    float getSytost() const;          // получить сытость игрока
+    float getTemperaturaTela() const; // получить температуру тела
+    float getVlazhnost() const;       // получить влажность / намокание
 
 private:
-    float health;
-    float satiety;
-    float temperature;
-    float wetness;
 
-    void clampStats();
+    float zdorovie;        // здоровье игрока
+    float sytost;          // сытость
+    float temperaturaTela; // температура тела
+    float vlazhnost;       // влажность / намокание
+
+    void ogranichitHarakteristiki();
 };

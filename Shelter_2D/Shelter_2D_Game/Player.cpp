@@ -2,8 +2,8 @@
 
 Player::Player()
 {
-    health = 100.0f;
-    satiety = 100.0f;
-    temperature = 36.6f;
-    wetness = 0.0f;
+    float health = 100.0;      // здоровье игрока
+    float satiety = 100.0;     // сытость
+    float temperature = 36.6; // температура тела
+    float wetness = 0;     // мокрота / влажность
 }

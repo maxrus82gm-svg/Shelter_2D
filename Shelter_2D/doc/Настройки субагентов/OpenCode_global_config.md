@@ -61,9 +61,6 @@ C:\Users\REX\.config\opencode\opencode.jsonc
         "qwen2.5-coder:7b": {
           "name": "qwen2.5-coder:7b"
         },
-        "north-mini-code-1.0:latest": {
-          "name": "north-mini-code-1.0:latest"
-        },
         "kimi-k2.7-code:cloud": {
           "name": "kimi-k2.7-code:cloud"
         },

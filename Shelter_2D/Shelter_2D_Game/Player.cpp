@@ -2,8 +2,12 @@
 
 Player::Player()
 {
-    float health = 100.0;      // здоровье игрока
-    float satiety = 100.0;     // сытость
-    float temperature = 36.6; // температура тела
-    float wetness = 0;     // мокрота / влажность
+    float zdorovie = 100.0;        // здоровье игрока
+    float sytost = 100.0;          // сытость
+    float temperaturaTela = 100.0; // температура тела
+    float vlazhnost = 0.0;       // влажность / намокание
+}
+float Player::getSytost() const
+{
+    return sytost;
 }

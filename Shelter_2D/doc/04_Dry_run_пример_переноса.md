@@ -21,7 +21,7 @@ ASSET_FOLDERS: НЕ УКАЗАНО
 CONFIG_FOLDERS: НЕ УКАЗАНО
 FORBIDDEN_FOLDERS: .git; .obsidian
 AGENT_CONFIG_PATHS: НЕ УКАЗАНО
-SUBAGENT_PROFILES: НЕ УКАЗАНО
+EXECUTOR_SCHEME: ChatGPT готовит большой и малый блок; пользователь передаёт последнюю версию малого блока Codex или другому выбранному исполнителю.
 CURRENT_BASE_COMMIT: НЕ УКАЗАНО
 USER_GIT_POLICY: Git не использовать без прямой команды пользователя.
 ```

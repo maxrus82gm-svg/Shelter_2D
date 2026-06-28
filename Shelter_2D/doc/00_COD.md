@@ -1,4 +1,0 @@
-
-Описание функций
-
-float deltaTime

@@ -20,10 +20,10 @@ int main()
 
     sf::Text sytostText;
     sytostText.setFont(font);  //устанавливаем используемый шрифт
-    sytostText.setCharacterSize(24); // размер
+    sytostText.setCharacterSize(14); // размер
     sytostText.setFillColor(sf::Color::Magenta); // цвет
     sytostText.setPosition(20.0f, 20.0f);
-    sytostText.setString("Sytost: 100%");
+    sytostText.setString("Sytost: ", player.sytost);
 
 
     sf::Text temperaturaTela;

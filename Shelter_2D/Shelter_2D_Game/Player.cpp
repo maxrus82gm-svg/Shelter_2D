@@ -2,7 +2,7 @@
 
 Player::Player()
     : zdorovie(100.0f),
-    sytost(100.0f),
+    sytost(10.0f),
     temperaturaTela(100.0f),
     vlazhnost(0.0f)
 {
